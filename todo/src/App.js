@@ -2,11 +2,12 @@ import React, { Component } from 'react';
 import TodoItem from './TodoItem';
 
 
-class App extends Component {
+
+class App extends React.Component {
   render() {
     return (
-      <div className="App">
-        <TodoItem />
+      <div>
+      <TodoItem />
       </div>
     );
   }
